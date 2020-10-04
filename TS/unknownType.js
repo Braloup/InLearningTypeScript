@@ -4,7 +4,10 @@ y.length;
 //x.length => ne fonctionne pas en l'état
 var z = y;
 //let Zz: string = x; => ne fonctionne pas en l'état
-if ("string" === typeof X) {
+if (isString(x)) {
     x.length;
-    var Zz = x;
+    var z_1 = x;
+}
+function isString(value) {
+    return "string" === typeof
 }
