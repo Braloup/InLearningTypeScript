@@ -1,9 +1,5 @@
-namespace space1 {
-  export const a = "foo";
-
-  export function exportNamespace() {
-    console.log("Export namespace");
-  }
-}
+// Indication au colpileur
+// Doit être compilé avec le flag --outFile + le nom du fichier en js + le fichier source
+/// <reference path="exportNamespace.ts" />
 
 space1.exportNamespace();
